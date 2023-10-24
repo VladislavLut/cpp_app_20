@@ -1,11 +1,9 @@
 #include <iostream>
-#include <Windows.h>
+
 
 using namespace std;
 
 int main() {
-    system("chcp 1251");
-    system("cls");
     const int rows = 3;
     const int columns = 3;
 
@@ -48,10 +46,10 @@ int main() {
     }
 
 
-    cout << "Сума всіх елементів масиву: " << sum << endl;
-    cout << "Середнє арифметичне всіх елементів масиву: " << mean << endl;
-    cout << "Мінімальний елемент масиву: " << min_element << endl;
-    cout << "Максимальний елемент масиву: " << max_element << endl;
+    cout << "Summa vsix elementiv masuvy: " << sum << endl;
+    cout << "Seredne arefmetchne vsix elementiv masuvy: " << mean << endl;
+    cout << "Minimalnuy element masuvy: " << min_element << endl;
+    cout << "Maksumalnuy element masuvy: " << max_element << endl;
 
     return 0;
 }
